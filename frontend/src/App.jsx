@@ -1,5 +1,5 @@
 const API_URL =
-  "https://creator-rag-chatbot-two.vercel.app/";
+  "https://creator-rag-chatbot.onrender.com";
 import { useState } from "react";
 import axios from "axios";
 import "./App.css";
@@ -77,7 +77,7 @@ const chartData = [
       setLoading(true);
 
       const res = await axios.post(
-        "${API_URL}/process-videos",
+        `${API_URL}/process-videos`,
         {
           video_a_url: videoAUrl,
           video_b_url: videoBUrl
@@ -171,7 +171,7 @@ const chartData = [
     try {
 
       const res = await axios.get(
-        "${API_URL}/compare"
+        `${API_URL}/compare`
       );
 
       setMessages(prev => [
@@ -205,7 +205,7 @@ const chartData = [
   try {
 
     const res = await axios.get(
-      "https://creator-rag-chatbot.onrender.com/transcript/${videoId}"
+      `${API_URL}/transcript/${videoId}`
     );
 
     setTranscript(
