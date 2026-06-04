@@ -1,0 +1,24 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# ChromaDB
+chroma_db/
+chroma.sqlite3
+
+# Audio files
+*.mp3
+*.wav
+*.m4a
+*.webm
+
+# Environment
+.env
+
+# React
+node_modules/
+dist/
+
+# VS Code
+.vscode/
