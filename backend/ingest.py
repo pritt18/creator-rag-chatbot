@@ -2,6 +2,7 @@ from whisper_transcript import get_transcript
 from embedder import chunk_text
 from chroma_db import collection
 from metadata import get_youtube_metadata
+from whisper_transcript import get_transcript
 
 def ingest_video(url, video_id):
 

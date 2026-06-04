@@ -188,7 +188,7 @@ uvicorn app:app --reload
 Backend URL:
 
 ```text
-http://127.0.0.1:8000
+https://creator-rag-chatbot.onrender.com
 ```
 
 ---
@@ -344,6 +344,10 @@ Used to determine audience interaction effectiveness.
 
 ![alt text](image-8.png)
 ---
+
+## Live Demo
+
+Frontend: https://creator-rag-chatbot-two.vercel.app
 
 ## 👨‍💻 Author
 

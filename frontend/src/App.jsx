@@ -205,7 +205,7 @@ const chartData = [
   try {
 
     const res = await axios.get(
-      "http://127.0.0.1:8000/transcript/${videoId}"
+      "https://creator-rag-chatbot.onrender.com/transcript/${videoId}"
     );
 
     setTranscript(
