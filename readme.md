@@ -349,6 +349,22 @@ Used to determine audience interaction effectiveness.
 
 Frontend: https://creator-rag-chatbot-two.vercel.app
 
+Backend: https://creator-rag-chatbot.onrender.com
+
+## Known Limitations
+
+The deployed cloud version may not fetch transcripts or metadata for some
+YouTube videos because YouTube may block automated requests from cloud
+servers using anti-bot protection (HTTP 429 / Sign in to confirm you're not a bot).
+
+The complete implementation is included in the repository and works in
+local development environments where YouTube access is available.
+
+Possible production solutions:
+- YouTube Data API
+- Authenticated yt-dlp cookies
+- Background processing workers
+
 ## 👨‍💻 Author
 
 **Pritam Gangurde**
